@@ -1,0 +1,234 @@
+
+.font-size_18{
+    font-size: 18px;
+    font-family: 'latoregular';
+    color: #a1a1a1;
+}
+.font-size18-i{
+    color: #a1a1a1;
+    font-size: 18px;
+    font-family: 'latoregular';
+    font-style: italic;
+}
+.font-size_16{
+    font-size: 16px;
+    font-family: 'latoregular';
+}
+.font-size18-bold{
+    font-family: 'latoblack';
+    font-size: 18px;
+}
+.font-size_72{
+    font-size: 72px;
+    font-family: 'latoblack';
+}
+.font-size_60{
+    font-family: 'latobold';
+    font-size: 60px;
+}
+.font-size_24{
+    font-size: 24px;
+    font-family: 'latoregular';
+}
+.font-size_24-bold{
+    font-size: 24px;
+    font-family: 'latobold';
+}
+.red-dot{
+    width: 15px;
+    height: 15px;
+    background-color: #de1540;
+    border-radius: 100%;
+}
+.font-size_50{
+    font-size: 50px;
+    font-family: 'latoblack';
+}
+.navbar-nav li .nav-link{
+    font-size: 18px;
+    font-family: 'latoregular';
+    color: white !important;
+}
+.navbar-nav .nav-item:after,
+.navbar-nav .nav-item:before {
+    transition: all .5s;
+}
+.navbar-nav .nav-item{
+    position: relative;
+}
+.navbar-nav .nav-item:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    border-bottom: 3px solid white;
+    height: 2px;
+}
+.navbar-nav .nav-item:hover:after {
+    width: 100%;
+}
+
+.padding90-t{
+    padding: 90px;
+}
+.theme-color{
+    color: #de1540 !important;
+}
+/*=========================hero section=================*/
+
+.hero-content{
+    line-height: 80px;
+}
+.head-bg{
+    background-image: url('../images/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    z-index: 999;
+    position: relative;
+    height: 900px;
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: white !important;
+}
+/*=====================easy-messaging-section==================*/
+.easy-messaging-section{
+    padding:20px 0;
+}
+/*.easy-messaging-content p{*/
+/*    line-height: 32px;*/
+/*}*/
+@media screen and (min-width: 731px) and (max-width: 1023px){
+    .-easy-messaging-front-img{
+        left: 70px !important;
+    }
+}
+@media screen and (min-width: 731px) and (max-width: 1023px){
+    .keep-front-img{
+        right: 70px !important;
+    }
+}
+    .-easy-messaging-front-img{
+        position: absolute;
+        top: 70px;
+        left: 160px;
+    }
+
+/*=====================keep-touch-section==========*/
+.keep-front-img {
+    position: absolute;
+    top: 70px;
+    right: 160px;
+}
+
+/*======================what people say================*/
+.people-say-card1{
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 15px
+}
+.people-say-card2{
+    transform: translateY(-40px)
+}
+.people-say-card3{
+    border-left: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 15px
+}
+.bottom-arrow:after {
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 15px 25px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid gray;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.bottom-arrow-center:after{
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 24px 14px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid white;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+/*============================video-section=============*/
+.video-section{
+    background-image: url("../images/video-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video-content-right{
+    text-align: right;
+}
+.video-content-left{
+    text-align: left;
+}
+.padding90-t-b{
+    padding: 110px 0;
+}
+.padding90-b{
+    padding-bottom:90px ;
+}
+@media screen and (min-width: 731px) and (max-width: 1336px){
+    .mobile-video-bg{
+        left: 40px;
+    }
+}
+
+.mobile-video-bg{
+    position: absolute;
+    top: 0px;
+    right: 48px;
+    height: 520px;
+}
+.mobile-heyU{
+    position: absolute;
+    left: 0;
+    top: -100px;
+}
+
+/*=======================Subscribe section===============*/
+.input-section{
+    border-radius: 15px;
+    background-color: #f8f8f8;}
+.input-section input{
+    border: none;
+    background-color: #f8f8f8;
+    padding: 3px 3px 3px 10px;
+}
+.input-section button{
+    border: none;
+    padding: 10px 30px;
+    background-image: -moz-linear-gradient( 90deg, rgb(235,64,44) 0%, rgb(217,6,71) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(235,64,44) 0%, rgb(217,6,71) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(235,64,44) 0%, rgb(217,6,71) 100%);
+    box-shadow: 0px 10px 30px 0px rgba(223, 27, 61, 0.3);
+}
+
+/*================footer==============*/
+.footer .navbar-nav li .nav-link{
+    color: gray !important;
+    font-size: 18px;
+    font-family: 'latoregular';
+}
+.dropdown-toggle::after{
+    margin-left: 2.255em !important;
+}
+.dropdown-menu{
+    min-width: 8rem !important;
+}
