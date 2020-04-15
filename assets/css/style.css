@@ -104,12 +104,21 @@
 /*.easy-messaging-content p{*/
 /*    line-height: 32px;*/
 /*}*/
-@media screen and (min-width: 731px) and (max-width: 1023px){
+@media screen and (min-width: 360px) and (max-width: 1023px){
     .-easy-messaging-front-img{
         left: 70px !important;
     }
+    .mobile-scr img{
+        width: 300px;
+    }
+    .back-img img{
+        width: 250px;
+    }
 }
-@media screen and (min-width: 731px) and (max-width: 1023px){
+@media screen and (min-width: 360px) and (max-width: 1024px){
+    .-easy-messaging-front-img{
+        left: 70px !important;
+    }
     .keep-front-img{
         right: 70px !important;
     }
@@ -222,7 +231,8 @@
 
 /*================footer==============*/
 .footer .navbar-nav li .nav-link{
-    color: gray !important;
+    padding-left: 10px;
+    color: #363636 !important;
     font-size: 18px;
     font-family: 'latoregular';
 }
