@@ -44,10 +44,10 @@
     font-size: 50px;
     font-family: 'latoblack';
 }
-.navbar-nav li .nav-link{
+.navbar-nav .nav-item a{
     font-size: 18px;
     font-family: 'latoregular';
-    color: white !important;
+    color: white;
 }
 .navbar-nav .nav-item:after,
 .navbar-nav .nav-item:before {
@@ -58,6 +58,10 @@
 }
 .nav-active{
     text-decoration: line-through;
+}
+
+#red1{
+    color: green;
 }
 .navbar-nav .nav-item:after{
     position: absolute;
@@ -78,8 +82,20 @@
 .padding90-t{
     padding: 90px;
 }
+.padding150-t{
+    padding-top: 150px;
+}
 .theme-color{
     color: #de1540 !important;
+}
+.theme-color-bg{
+    background-color: #de1540 !important;
+}
+.navbar-padding{
+    padding: 0 0;
+}
+.logo span{
+    color: white;
 }
 /*=========================hero section=================*/
 
